@@ -166,7 +166,7 @@ for i in range(len(ray_x_end_symmetric)):
             x=[ray_x_end_symmetric[i], refracted_x_symmetric[i]],
             y=[ray_y_end_symmetric[i], refracted_y_symmetric[i]],
             mode="lines",
-            line=dict(color="green"),
+            line=dict(color="yellow"),
             showlegend=False,
         )
     )
